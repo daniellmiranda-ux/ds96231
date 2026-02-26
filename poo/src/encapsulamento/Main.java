@@ -2,7 +2,6 @@ import java.lang.instrument.ClassFileTransformer;
 import java.nio.channels.ClosedByInterruptException;
 
 public class Main { 
-    Run|Debug
     /**
      * @param args
      */
@@ -23,12 +22,14 @@ public class Main {
 
         Livro livro1 = new Livro();
         livro1.setNome("diario de um banana");
-        livro1.setPreco(100)
+        livro1.setPreco(100);
 
-        Funcionario Funcionario1 = new Funcionario();
-        Funcionario1.setNome("daniel")
-        Funcionario1.setCargo("inspetor de calculos");
-        Funcionario1.setSalario(2000)
+        Funcionario funcionario1 = new Funcionario("dan", "professor", 1000);
+    
+
+        Aluno aluno1 = new Aluno("dan", "jose@gmial.com");
+        System.out.println("Nome:" + aluno1.getNome());
+        System.out.println ("Email:" +aluno1.getEmail());
 
 
         System.out.println ("Nome: " + cliente1.getNome());
@@ -40,12 +41,29 @@ public class Main {
         System.out.println ("Nome: " + livro1.getNome());
         System.out.println("Idade:" + livro1.getPreco());
 
-        System.out.println ("Nome: " + Funcionario1.getNome());
-        System.out.println("Idade:" + Funcionario1.getCargo());
-        System.out.println("Idade:" + Funcionario1.getSalario());
+        System.out.println ("Nome: " + funcionario1.getNome());
+        System.out.println("Idade:" + funcionario1.getCargo());
+        System.out.println("Idade:" + funcionario1.getSalario());
+
+        Livro2 livro3 = new Livro2("estrelas", "rhai", 100, 125);
+        System.out.println("titulo" + livro3.getTitulo());
+        System.out.println("autor" + livro3.getAutor());
+        System.out.println("numerodepag" + livro3.getNumerodepag());
+        System.out.println("preco" + livro3.getPreco());
+
+        Livro2 livro5 = new Livro2("visca", "dan", 100, 125);
+        System.out.println("titulo:" + livro5.getTitulo());
+        System.out.println("autor:" + livro5.getAutor());
+        System.out.println("numerodepag:" + livro5.getNumerodepag());
+        System.out.println("preco:" + livro5.getPreco());
+
+
+
+
 
 
 
     }
 
+    
 }

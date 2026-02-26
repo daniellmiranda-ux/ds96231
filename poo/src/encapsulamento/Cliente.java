@@ -1,6 +1,6 @@
 public class Cliente {
    private String nome;
-    int idade;
+     private int idade;
     public String getNome() {
         return nome;
     }
