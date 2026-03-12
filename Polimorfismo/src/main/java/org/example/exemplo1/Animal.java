@@ -1,6 +1,6 @@
-package org.example;
+package org.example.exemplo1;
 
 public interface Animal {
-    // Apenas metodos.
     public abstract  String emitirSom();
+    public abstract String comer();
 }
