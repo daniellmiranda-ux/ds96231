@@ -1,6 +1,8 @@
 package org.example.exemplo1;
 
 public class Cachorro implements Animal {
-    @Override
-    public String emitirSom();
+
+    public String emitirSom(){
+        return "Auau";
+    }
 }
