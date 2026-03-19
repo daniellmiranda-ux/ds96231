@@ -1,8 +1,9 @@
 package org.example.exer1;
 
 public enum Setor {
-    MASCULINO("Masculino"),
-    FEMININO("Feminino");
+    RECURSOS_HUMANOS("Recursos Humanos"),
+    FINANCEIRO("Financeiro"),
+    OPERACOES("Operaçoes");
 
     private String texto;
 

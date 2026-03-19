@@ -1,6 +1,6 @@
 package org.example.exercicio4;
 
-public class Motoboy extends Funcionario{
+public class Motoboy extends Funcionario {
     private String placaDaMoto;
 
     public Motoboy(String nome, String cpf, String dataNascimento, double salarioBase, String placaDaMoto) {

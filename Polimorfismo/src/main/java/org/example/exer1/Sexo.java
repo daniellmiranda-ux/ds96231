@@ -1,10 +1,8 @@
 package org.example.exer1;
 
 public enum Sexo {
-    RECURSOS_HUMANOS("Recursos Humanos"),
-    FINANCEIRO("Financeiro"),
-    OPERACOES("Operaçoes");
-
+    MASCULINO("Masculino"),
+    FEMININO("Feminino");
     private String nome;
 
     Sexo(String nome) {
