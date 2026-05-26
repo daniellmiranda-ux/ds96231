@@ -1,0 +1,11 @@
+.info-curso {
+    font-size: 50px;
+    align-items: center;
+    margin: 15px auto;
+    color: blue;
+}
+
+.info-curso p{
+    color: red;
+    text-align: center;
+}
